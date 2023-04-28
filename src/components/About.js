@@ -22,7 +22,7 @@ function About() {
                 <div class="sobre_conteudo">
                 <div class="sobre_texto">
                     <p>Arquiteto e Urbanista com mais de 150 projetos
-                        entregues, a mais de 7 anos fazendo gestão e
+                        entregues, há mais de 7 anos fazendo gestão e
                         acompanhamento de obras. Vasta experiência
                         em projetos de grandes escalas como, escolas,
                         hospitais e igrejas.
