@@ -339,6 +339,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 
+
+
 /************ CardProjects Css ************/
 
 .projectsSection {
@@ -378,8 +380,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about {
   padding: 50px 0px 50px 50px;
   margin: 80px 0px 80px 0px;
-  background: rgb(108, 0, 0);
-  background: linear-gradient(0deg, rgb(74, 0, 0) 0%, rgb(73, 1, 1) 100%);
+  background: rgb(156, 0, 0);
+  background: linear-gradient(0deg, rgb(132, 0, 0) 0%,rgb(134, 0, 0)) 100%;
   color: #EDEDED;
 }
 
@@ -428,7 +430,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: #DA0037;
+  background-color: #fff;
 }
 
 .sobre_conteudo {
@@ -496,7 +498,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .sobre_info h4 {
   font-size: 1.5rem;
-  color: #DA0037;
+  color: #fff;
 }
 
 .sobre_info i {
@@ -517,7 +519,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .year {
   font-size: 1.2rem;
-  color: #DA0037;
+  color: #fff;
   margin: 1px;
 }
 
@@ -565,11 +567,44 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   filter: none;
 }
 
+/************ Skills Css ************/
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+.skill-bx {
+  background: #1a1a1a;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+}
+.skill h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.skill p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+
 
 /************ Contact Css ************/
 .contact {
-  background: rgb(108, 0, 0);
-  background: linear-gradient(0deg, rgb(74, 0, 0) 0%, rgb(73, 1, 1) 100%);
+  background: rgb(156, 0, 0);
+  background: linear-gradient(0deg, rgb(132, 0, 0) 0%,rgb(134, 0, 0)) 100%;
   padding: 60px 0 60px 0;
 }
 .contact img {
