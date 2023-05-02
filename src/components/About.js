@@ -22,7 +22,7 @@ function About() {
                 <div class="sobre_conteudo">
                 <div class="sobre_texto">
                     <p>Arquiteto e Urbanista com mais de 150 projetos
-                        entregues, há mais de 7 anos fazendo gestão e
+                        entregues, a mais de 7 anos fazendo gestão e
                         acompanhamento de obras. Vasta experiência
                         em projetos de grandes escalas como, escolas,
                         hospitais e igrejas.
@@ -49,7 +49,7 @@ function About() {
                         <p className='institution'>Arcelor Mittal</p><br/>
                         <span className='year'>2016</span>
                         <p>Prêmio | Reforma do Edificio Prada</p>
-                        <p className='institution'>ENAIC</p>
+                        <p className='institution'>ENIAC</p>
                     </div>
                     <div className='contactInfo'>
                         <h4>CONTATO</h4>
