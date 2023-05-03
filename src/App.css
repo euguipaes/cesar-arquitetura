@@ -377,22 +377,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ About Css ************/
 
-.about {
+#about {
   padding: 50px 0px 50px 50px;
   margin: 80px 0px 80px 0px;
+  border-radius: 10px;
   background: rgb(156, 0, 0);
   background: linear-gradient(0deg, rgb(132, 0, 0) 0%,rgb(134, 0, 0)) 100%;
   color: #EDEDED;
 }
 
-.aboutImg {
+/* .aboutImg {
   padding: 30px;
-}
+} */
 
-.aboutImg img {
-  width: 450px;
+#about img {
+  width: 420px;
   height: 100%;
   border-radius: 20px;
+}
+
+.mb-3 {
+  margin-top: 40px;
+  position: relative;
+}
+
+.mb-3 a {
+  color: black;
+}
+
+.nav {
+  --bs-nav-link-color: #EDEDED;
+  --bs-nav-link-hover-color: #9a9a9a;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #EDEDED;
 }
 
 .sobre_titulo {
@@ -432,14 +452,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 50%;
   background-color: #fff;
 }
-
+/* 
 .sobre_conteudo {
   animation: sobeSessao .6s ease-in-out forwards;
   grid-column: 2/-1;
   display: grid;
   color: #EDEDED;
   grid-template-columns: 1fr 1fr;
-}
+} */
 
 .sobre_texto {
   display: grid;
@@ -469,7 +489,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   grid-column: 1/-1;
 }
 
-.sobre_info {
+/* .sobre_info {
   margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -511,17 +531,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .sobre_info span {
   font-size: 1.1rem;
   font-weight: bold;
-}
+}*/
 
 .institution {
-  font-weight: normal !important;
-}
+  font-weight: 700 !important;
+} 
 
 .year {
   font-size: 1.2rem;
   color: #fff;
   margin: 1px;
-}
+  font-weight: 700;
+} 
 
 
 
