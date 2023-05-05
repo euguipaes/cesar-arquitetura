@@ -353,7 +353,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .projectCard img:hover {
-  transition: .10s linear;
+  transition: 300ms linear;
   filter: none;
 }
 
@@ -562,7 +562,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .projects img:hover {
-  transition: .10s linear;
+  transition: 200ms linear;
   filter: none;
 }
 
