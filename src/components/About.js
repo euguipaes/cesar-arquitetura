@@ -14,6 +14,7 @@ function About() {
                 <Col xs={5} className='aboutImg'><img src={aboutImg} /></Col>
                 <Col xs={7}>    
                     <div class="sobre_titulo">
+                        <br/><br/><br/>
                         <h1>César Augusto</h1>
                         <div aria-label="seção apenas de ilustrações de botões">
                             <span></span>
@@ -23,7 +24,7 @@ function About() {
                     </div>
                     <div class="sobre_texto">
                         <p>Arquiteto e Urbanista com mais de 150 projetos
-                            entregues, a mais de 7 anos fazendo gestão e
+                            entregues, há mais de 7 anos fazendo gestão e
                             acompanhamento de obras. Vasta experiência
                             em projetos de residência e de grandes escalas como escolas,
                             hospitais e igrejas.
@@ -53,7 +54,7 @@ function About() {
                             <p className='institution'>ENIAC</p>
                         </Col>
                         <Row className='contactInfo'>
-                            <h4>CONTATO</h4>
+                            <h4><br/>CONTATO</h4>
                             <span><i class="fa-solid fa-envelope"></i> c.a.arquitetoeurbanista@hotmail.com</span><br/>
                             <span><i class="fa-solid fa-phone"></i> (32) 99127-1237</span><br/>
                             <span><i class="fa-solid fa-house"></i> Juiz de Fora, Minas Gerais</span><br/>
