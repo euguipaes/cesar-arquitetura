@@ -25,7 +25,7 @@ function About() {
                         <p>Arquiteto e Urbanista com mais de 150 projetos
                             entregues, a mais de 7 anos fazendo gestão e
                             acompanhamento de obras. Vasta experiência
-                            em projetos de grandes escalas como, escolas,
+                            em projetos de residência e de grandes escalas como escolas,
                             hospitais e igrejas.
                             <br/>
                         </p>

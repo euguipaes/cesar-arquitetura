@@ -566,39 +566,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   filter: none;
 }
 
-/************ Skills Css ************/
-.skill {
-  padding: 0 0 50px 0;
+/************ Partners Css ************/
+.partners {
+  padding: 0 0 40px 0;
   position: relative;
 }
-.skill-bx {
+.partners-bx {
   background: #1a1a1a;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 50px 0px;
 }
-.skill h2 {
+.partners h2 {
 	font-size: 45px;
 	font-weight: 700;
 }
-.skill p {
+.partners p {
     color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
-}
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
+    padding: 10px;
 }
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
 }
 
-
+.item img {
+  padding: 10px;
+}
 
 /************ Contact Css ************/
 .contact {
