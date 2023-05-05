@@ -54,8 +54,8 @@ function About() {
                             <p className='institution'>ENIAC</p>
                         </Col>
                         <Row className='contactInfo'>
-                            <h4><br/>CONTATO</h4>
-                            <span><i class="fa-solid fa-envelope"></i> c.a.arquitetoeurbanista@hotmail.com</span><br/>
+                            <h4><br/>CONTATO</h4><br/>
+                            <span><br/><i class="fa-solid fa-envelope"></i> c.a.arquitetoeurbanista@hotmail.com</span><br/>
                             <span><i class="fa-solid fa-phone"></i> (32) 99127-1237</span><br/>
                             <span><i class="fa-solid fa-house"></i> Juiz de Fora, Minas Gerais</span><br/>
                         </Row>
