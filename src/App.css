@@ -402,9 +402,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 } */
 
 #about img {
-  width: 537px;
+  width: 79.4%;
   height: 100%;
-  border-radius: 3px;
+  border-radius: 2px;
   display: block;
 }
 
