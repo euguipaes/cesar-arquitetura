@@ -3,34 +3,13 @@ import partner2 from "../assets/img/partner2.png";
 import partner3 from "../assets/img/partner3.png";
 import partner4 from "../assets/img/partner4.png";
 import partner5 from "../assets/img/partner5.png";
-import Carousel from 'react-multi-carousel';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'react-multi-carousel/lib/styles.css';
 
 export const Partners = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
-
   return (
-    <section className="partners" id="skills">
+    <section className="partners">
         <div className="container">
             <div className="row">
                 <div className="col-12">
@@ -68,7 +47,7 @@ export const Partners = () => {
                                   <h5>Igreja Adventista</h5>
                               </div>
                             </Col>
-                            </Row>
+                          </Row>
                     </div>
                 </div>
             </div>
