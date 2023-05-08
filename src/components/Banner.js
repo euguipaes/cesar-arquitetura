@@ -21,7 +21,7 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
                 <div>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" className="headerImg"/>
                 </div>
           </Col>
         </Row>
