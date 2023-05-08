@@ -101,31 +101,31 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-@media  (max-device-width: 756px) {
-  main .container section img{
-	max-width: 100%;
-	padding: 0 150px;
+@media  (max-device-width: 900px) {
+  main .container section img {
+	max-width: 100% !important;
+	padding: 0 150px !important;
 	}
 
   .headerImg {
-  display: none;
+  display: none !important;
   }
 
   .banner h1, p{
-    text-align: center;
-    align-items: center;
-    margin-left: 10%;
+    text-align: center !important;
+    align-items: center !important;
+    margin-left: 10% !important;
   }
 
   #contato {
-    display: none;
+    display: none !important;
   }
 
   .projectCard {
-    display: block;
-    width: 100%;
-    padding: 20px;
-    margin-left: 2px;
+    display: block !important;
+    width: 100% !important;
+    padding: 20px !important;
+    margin-left: 2px !important;
   }
 
   .banner-logo {
@@ -134,33 +134,33 @@ input:focus, textarea:focus, select:focus {
   }
 
   .banner {
-    width: 100%;
+    width: 100% !important;
   }
   
   #about {
-    padding-left: 150px;
+    padding-left: 150px !important;
   }
 
   .col-7 {
-    margin-left: 80px;
-    margin-top: -50px;
+    margin-left: 80px !important;
+    margin-top: -50px !important;
   }
 
   .sobre_texto, .aboutInfo {
-    margin-left: -50px;
+    margin-left: -50px !important;
   }
 
   .projectCard {
-    width: 100%;
+    width: 100% !important;
   }
 
   .aboutImg {
-    width: 100%;
+    width: 100% !important;
   }
 
   .projects row {
-    width: 100%;
-    display: block;
+    width: 100% !important;
+    display: block !important;
   }
 }
 
