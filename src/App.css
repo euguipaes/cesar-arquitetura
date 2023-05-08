@@ -123,16 +123,41 @@ input:focus, textarea:focus, select:focus {
 
   .projectCard {
     display: block;
+    width: 100%;
+    padding: 20px;
+    margin-left: 2px;
   }
 
-  .banner-logo {
-    height: 100%;
-  }
 
   .banner {
     width: 100%;
   }
+  
+  #about {
+    padding-left: 150px;
+  }
 
+  .col-7 {
+    margin-left: 80px;
+    margin-top: -50px;
+  }
+
+  .sobre_texto, .aboutInfo {
+    margin-left: -50px;
+  }
+
+  .projectCard {
+    width: 100%;
+  }
+
+  .aboutImg {
+    width: 100%;
+  }
+
+  .projects row {
+    width: 100%;
+    display: block;
+  }
 }
 
 #contato {
