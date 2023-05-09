@@ -101,7 +101,7 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-@media  (max-device-width: 756px) {
+@media  (max-width: 479px) {
 
   .headerImg {
   display: none !important;
