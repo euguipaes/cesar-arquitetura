@@ -124,10 +124,6 @@ input:focus, textarea:focus, select:focus {
   .banner {
     width: 100% !important;
   }
-  
-  #about {
-    padding-left: 130px !important;
-  }
 	
   .projectCard {
     width: 100% !important;
