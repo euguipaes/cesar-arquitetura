@@ -129,16 +129,7 @@ input:focus, textarea:focus, select:focus {
   #about {
     padding-left: 150px !important;
   }
-
-  .col-7 {
-    margin-left: 80px !important;
-    margin-top: -50px !important;
-  }
-
-  .sobre_texto, .aboutInfo {
-    margin-left: -50px !important;
-  }
-
+	
   .projectCard {
     width: 100% !important;
   }
