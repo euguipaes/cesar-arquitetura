@@ -140,12 +140,10 @@ input:focus, textarea:focus, select:focus {
   .col-7 {
     margin-left: 80px !important;
     margin-top: -50px !important;
-    width: 100%
   }
 
   .sobre_texto, .aboutInfo {
     margin-left: -50px !important;
-    width: 100%
   }
 
   .projectCard {
