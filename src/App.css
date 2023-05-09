@@ -101,7 +101,7 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 900px) {
 
   .headerImg {
   display: none !important;
