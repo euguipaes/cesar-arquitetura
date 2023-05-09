@@ -103,6 +103,7 @@ input:focus, textarea:focus, select:focus {
   .banner h1, p{
     text-align: center !important;
     align-items: center !important;
+    margin-left: 10% !important;
   }
 
   #contato {
@@ -116,8 +117,8 @@ input:focus, textarea:focus, select:focus {
   }
 
   .banner-logo {
-    width: 30% !important;
-    height: 30% !important;
+    width: 40% !important;
+    height: 40% !important;
   }
 
   .banner {
