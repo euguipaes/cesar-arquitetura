@@ -94,13 +94,6 @@ input:focus, textarea:focus, select:focus {
 }
 
 
-@media (min-width:1700px) {
-	main .container section img {
-		max-width: 100%;
-		padding: 0 150px;
-	}
-}
-
 @media screen and (max-width: 1200px) {
 
   .headerImg {
