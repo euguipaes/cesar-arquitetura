@@ -14,15 +14,40 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-            <a href="https://www.linkedin.com/in/cesar-augusto-paes-205a5b25a/" target="_blank"><img src={navIcon1} alt="linkedin" /></a>
-                  <a href="https://www.instagram.com/cesar.augusto.ar/" target="_blank"><img src={navIcon2} alt="instagram" /></a>
-                  <a href="https://api.whatsapp.com/send?phone=5532991271237" target="_blank"><img src={navIcon3} alt="whatsapp" /></a>
+              <a
+                href="https://www.linkedin.com/in/cesar-augusto-paes-205a5b25a/"
+                target="_blank"
+              >
+                <img src={navIcon1} alt="linkedin" />
+              </a>
+              <a
+                href="https://www.instagram.com/arquitetojf.cesar/"
+                target="_blank"
+              >
+                <img src={navIcon2} alt="instagram" />
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=5532991271237"
+                target="_blank"
+              >
+                <img src={navIcon3} alt="whatsapp" />
+              </a>
             </div>
-            <p>Copyright 2023. Todos os direitos reservados. | César Augusto Arquitetura | Desenvolvido por <span><a href="https://www.linkedin.com/in/guilherme-paes-7b5591133/" target="_blank">Guilherme Paes.</a></span></p>
+            <p>
+              Copyright 2023. Todos os direitos reservados. | César Augusto
+              Arquitetura | Desenvolvido por{" "}
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/guilherme-paes-7b5591133/"
+                  target="_blank"
+                >
+                  Guilherme Paes.
+                </a>
+              </span>
+            </p>
           </Col>
         </Row>
       </Container>
     </footer>
-  )
-}
-
+  );
+};

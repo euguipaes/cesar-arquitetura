@@ -1,52 +1,46 @@
 const express = require("express");
-const router = express.Router();
-const cors = require("cors");
 const nodemailer = require("nodemailer");
 
-// server used to send send emails
 const app = express();
-app.use(cors());
-app.use(express.json());
-app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
-console.log(process.env.EMAIL_USER);
-console.log(process.env.EMAIL_PASS);
+const port = 5000;
 
-const contactEmail = nodemailer.createTransport({
-  service: 'gmail',
+const transporter = nodemailer.createTransport({
+  host: "smtp.hostinger.com",
+  port: 465,
   auth: {
-    user: "********@gmail.com",
-    pass: ""
+    user: "contato@cesararquitetura.com.br",
+    pass: "Arquiteto21#",
   },
 });
 
-contactEmail.verify((error) => {
-  if (error) {
-    console.log(error);
-  } else {
-    console.log("Ready to Send");
-  }
-});
+app.use(express.json());
 
-router.post("/contact", (req, res) => {
-  const name = req.body.firstName + req.body.lastName;
-  const email = req.body.email;
-  const message = req.body.message;
-  const phone = req.body.phone;
-  const mail = {
-    from: name,
-    to: "********@gmail.com",
-    subject: "Contact Form Submission - Portfolio",
-    html: `<p>Name: ${name}</p>
-           <p>Email: ${email}</p>
-           <p>Phone: ${phone}</p>
-           <p>Message: ${message}</p>`,
+app.post("/send", (req, res) => {
+  const { name, email, phone, message } = req.body;
+
+  const mailOptions = {
+    from: email,
+    to: "contato@cesararquitetura.com.br",
+    subject: "Contato pelo Site",
+    html: `
+      <p>Nome: ${name}</p>
+      <p>Email: ${email}</p>
+      <p>Telefone: ${phone}</p>
+      <p>Mensagem: ${message}</p>
+    `,
   };
-  contactEmail.sendMail(mail, (error) => {
+
+  transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      res.json(error);
+      console.error(error);
+      res.status(500).send({ error: "Ocorreu um erro ao enviar a mensagem." });
     } else {
-      res.json({ code: 200, status: "Message Sent" });
+      console.log("Email enviado: " + info.response);
+      res.status(200).send({ message: "Mensagem enviada com sucesso." });
     }
   });
+});
+
+app.listen(port, () => {
+  console.log(`Servidor rodando em http://cesararquitetura.com.br:${port}`);
 });
